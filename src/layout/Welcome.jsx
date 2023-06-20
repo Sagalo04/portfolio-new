@@ -116,7 +116,7 @@ function Welcome(props) {
               <Button
                 auto
                 css={{ w: "50%" }}
-                link={"/assets/pdf/CV Santiago Garcia.pdf"}
+                link={"/assets/pdf/CV - Santiago G.pdf"}
               >
                 <Icon className="buttonIcon" icon={icons["DownloadIcon"]} />{" "}
                 Resume
