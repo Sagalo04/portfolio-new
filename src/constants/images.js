@@ -23,4 +23,5 @@ export const cardImg = {
     image15: "/assets/images/imagecard/Debitazo.jpg",
     image16: "/assets/images/imagecard/Ikaro.jpg",
     image17: "/assets/images/imagecard/Val.jpg",
+    image18: "/assets/images/imagecard/Buchanans.jpg",
 }

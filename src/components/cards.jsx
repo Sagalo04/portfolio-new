@@ -251,4 +251,17 @@ export const cards = [
       />
     ),
   },
+  {
+    key: uuidv4(),
+    content: (
+      <Card
+        imagen={cardImg["image18"]}
+        title={"Buchanan's whisky"}
+        descrip={
+          "I supported the creation of the Buchanan's Whisky website in Spanish, alongside the Dentsu Creative team."
+        }
+        link1="https://www.buchananswhisky.com/es-us"
+      />
+    ),
+  },
 ];
