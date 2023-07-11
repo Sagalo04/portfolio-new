@@ -66,7 +66,7 @@ function Card({ imagen, title, descrip, link1, link2, dis1, dis2 }) {
       <div className="btnn">
         {/* <Button title="Demo" icon={arrow} refr={link1} dis={dis1} > */}
         <Button auto disabled={!link1 ? true : false} link={link1}>
-          <Icon className="buttonIcon" icon={icons["arrow"]} /> Demo
+          <Icon className="buttonIcon" icon={icons["arrow"]} /> Go Site
         </Button>
         <Button auto disabled={!link2 ? true : false}>
           <Icon className="buttonIcon" icon={icons["Github"]} link={link2} />{" "}

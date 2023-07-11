@@ -238,4 +238,17 @@ export const cards = [
       />
     ),
   },
+  {
+    key: uuidv4(),
+    content: (
+      <Card
+        imagen={cardImg["image17"]}
+        title={"Val Logistics"}
+        descrip={
+          "We've developed a revolutionary app that streamlines and improves the quoting and tracking of shipments, whether by sea, air, or land. Our comprehensive solution provides all the necessary tools and functionalities for efficient shipment management."
+        }
+        link1="https://app.val.com.co/"
+      />
+    ),
+  },
 ];
