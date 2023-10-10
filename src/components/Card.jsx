@@ -68,8 +68,8 @@ function Card({ imagen, title, descrip, link1, link2, dis1, dis2 }) {
         <Button auto disabled={!link1 ? true : false} link={link1}>
           <Icon className="buttonIcon" icon={icons["arrow"]} /> Go Site
         </Button>
-        <Button auto disabled={!link2 ? true : false}>
-          <Icon className="buttonIcon" icon={icons["Github"]} link={link2} />{" "}
+        <Button auto disabled={!link2 ? true : false} link={link2}>
+          <Icon className="buttonIcon" icon={icons["Github"]} />{" "}
           Code
         </Button>
         {/* <Button title="Code" icon={icons["Github"]} refr={link2} dis={dis2} /> */}
